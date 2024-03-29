@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+        position: relative;
+        width: 90.5%; 
+        margin: 55px 20px 20px 79px;
+        transition: background-image 0.3s;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+
+}
+
+
+li a {
+    text-decoration: none;
+    margin: 30px;
+    color: #000000;
+    font-size: 17.0px;
+    font-weight: 200;
+    transition: 0.3s ease-in-out;
+}
+
+li a:hover {
+    font-size: 20px;
+    font-weight: 600;
+    transform: translateY(-10px);
+}
+
+.Nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #555;
+    padding-left: 35px;
+    padding-top: 15px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 20px 0 -20px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.btn:hover {
+    background: #222;
+    transform: translateY(-10px);
+}
+
+
+.LOGO {
+    width: 100px;
+    height: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.LOGO:hover {
+    transform: translateY(-10px);
+    width: 120px;
+    height: 60px;
+
+}
+
+
+.content {
+    margin-top: 14%;
+    right: 200%;
+}
+
+.content h2 {
+    color: red;
+    font-size: 34px;
+    margin-bottom: 20px;
+
+}
+
+.content h1 {
+    font-size: 100px;
+    color: #333;
+    margin-top: -20px;
+}
+
+.content p {
+    max-width: 750px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+}
+
+.content h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.main {
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    padding: 100px;
+}
+
+/* img {
+    width: 100%;
+    height: 50vh;
+} */
+
+
+.select-colour div {
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.select-colour {
+    display: flex;
+    margin-top: 30px;
+}
+
+.select-colour #black {
+    background: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.select-colour #black:hover {
+    transform: translateY(-10px);
+}
+
+.select-colour #red {
+    background: red;
+    transition: 0.3s ease-in-out;
+}
+
+.select-colour #red:hover {
+    transform: translateY(-10px);
+}
+
+.select-colour #green {
+    background: #747944;
+    transition: 0.3s ease-in-out;
+}
+
+.select-colour #green:hover {
+    transform: translateY(-10px);
+}
+
+button {
+    background-color: #555;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 50px;
+    margin: 20px 0 -20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 0;
+}
+
+button:hover {
+    background: #222;
+    transform: translateY(-10px);
+}
